@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: theme('colors.brand.500');
+  }
+
+  html {
+    @apply font-sans scroll-smooth;
+  }
+
+  body {
+    @apply bg-gray-50 text-gray-900 dark:bg-slate-900 dark:text-slate-100 transition-colors duration-300;
+  }
+
+  #root {
+    @apply flex flex-col min-h-screen;
+  }
+
+  main {
+    @apply flex-1;
+  }
+
+  a {
+    @apply no-underline;
+  }
+
+  img {
+    @apply max-w-full block;
+  }
+}
