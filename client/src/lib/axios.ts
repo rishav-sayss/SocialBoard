@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: 'https://socialboard-5eov.onrender.com/api',
+  baseURL: 'https://socialboard-1-blc5.onrender.com/api',
   headers: {
     'Content-Type': 'application/json',
   },
@@ -9,3 +9,4 @@ const api = axios.create({
 })
 
 export default api
+
