@@ -16,7 +16,7 @@ const app: Application = express();
 // ─── Middleware ───────────────────────────────────────────────────────────────
 app.use(
   cors({
-    origin:'https://social-board-lac.vercel.app/',
+    origin:'https://social-board-lac.vercel.app',
     credentials: true,
   })
 );
